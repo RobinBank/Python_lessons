@@ -4,10 +4,13 @@
 
 # import the calendar module
 
+import calendar
 
 # create a plain text calendar
 
-
+C = calendar.TextCalendar(calendar.SUNDAY)
+st = C.formatmonth(2021,1,0,0)
+print(st)
 # create an HTML formatted calendar
 
 

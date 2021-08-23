@@ -7,6 +7,8 @@ from datetime import datetime
 def main():
   # Times and dates can be formatted using a set of predefined string
   # control codes 
+  now = datetime.now()
+  print(now.strftime("%a, %d %B, %y"))
 
   
   #### Date Formatting ####
